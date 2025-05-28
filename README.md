@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Arzef
 
-## Getting Started
+A minimalist portfolio website showcasing web application development services.
 
-First, run the development server:
+## What we do
+
+- Document processing with AI chat systems
+- Image processing and generation tools
+- Business management platforms
+- Payment systems and financial tools
+- Data analytics dashboards
+- Multi-tenant SaaS applications
+
+## Tech Stack
+
+- **Framework**: Next.js 15
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Internationalization**: next-intl (English/Turkish)
+- **Font**: Raleway
+- **Booking**: Cal.com integration
+
+## Development
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+app/
+├── [locale]/          # Internationalized routes
+│   ├── layout.tsx     # Main layout with i18n
+│   └── page.tsx       # Homepage
+├── globals.css        # Global styles
+└── favicon.ico
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+components/
+├── ui/               # shadcn/ui components
+├── header.tsx        # Navigation
+├── footer.tsx        # Footer
+└── cal-booking.tsx   # Calendar integration
 
-## Learn More
+messages/
+├── en.json          # English translations
+└── tr.json          # Turkish translations
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Responsive design
+- Dark/light mode support
+- Bilingual (English/Turkish)
+- Integrated booking system
+- Clean, minimal interface
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+The site runs on Next.js dynamic rendering with internationalization support.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with clean code, no bullshit.
