@@ -92,13 +92,13 @@ export default function Home() {
       <Separator className="my-16" />
 
       {/* Contact Section */}
-      <section id="contact" className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-6">{t('contact.title')}</h2>
           <p className="text-xl text-muted-foreground text-center mb-12">
             {t('contact.description')}
           </p>
-          <div className="bg-card border border-border/50 rounded-lg p-1">
+          <div id="contact" className="bg-card border border-border/50 rounded-lg p-1 scroll-mt-12">
             <div style={{height:"600px"}}>
               <CalBooking />
             </div>
