@@ -1,0 +1,46 @@
+{
+  "navigation": {
+    "work": "Projeler",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "badge": "Web uygulamaları geliştiriyoruz",
+    "title": "Dijital dünyayı şekillendiriyoruz",
+    "description": "Yaratıcılığın ve teknolojinin gücüyle geleceğin web deneyimlerini geliştiriyoruz.",
+    "contactButton": "Bize ulaşın"
+  },
+  "showcase": {
+    "title": "Uzmanlık alanlarımız",
+    "documentIntelligence": {
+      "title": "Akıllı Belgeler",
+      "description": "Belgelerinizi anlayan ve sizinle konuşan yapay zeka sistemleri"
+    },
+    "imageProcessing": {
+      "title": "Görsel İşleme", 
+      "description": "Yapay zeka ile görseller oluşturan ve geliştiren araçlar"
+    },
+    "professionalPlatforms": {
+      "title": "Sektöre Özel Platformlar",
+      "description": "İş süreçlerinize özel tasarlanmış kapsamlı yönetim çözümleri"
+    },
+    "financialSolutions": {
+      "title": "Fintech Çözümleri",
+      "description": "Ödeme sistemleri ve mali yönetim platformları"
+    },
+    "dataPlatforms": {
+      "title": "Veri Analitiği",
+      "description": "İş verilerinizi anlamlı bilgilere dönüştüren dashboard'lar"
+    },
+    "multiTenantSaas": {
+      "title": "Multi-tenant SaaS",
+      "description": "Büyüyen işletmeler için ölçeklenebilir yönetim sistemleri"
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "description": "Bizimle bir toplantı ayarlayın."
+  },
+  "footer": {
+    "copyright": "© 2024 Arzef. Web uygulamaları geliştiriyoruz."
+  }
+} 

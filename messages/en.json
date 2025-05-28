@@ -1,0 +1,46 @@
+{
+  "navigation": {
+    "work": "Work",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Building for the web",
+    "title": "We build digital experiences",
+    "description": "Merging creativity and technology to build next-generation web solutions",
+    "contactButton": "Contact us"
+  },
+  "showcase": {
+    "title": "What we build",
+    "documentIntelligence": {
+      "title": "Document Intelligence",
+      "description": "Smart document processing and AI chat systems"
+    },
+    "imageProcessing": {
+      "title": "Image Processing", 
+      "description": "AI-powered image enhancement and manipulation tools"
+    },
+    "professionalPlatforms": {
+      "title": "Professional Platforms",
+      "description": "Complete management systems for specialized industries"
+    },
+    "financialSolutions": {
+      "title": "Financial Solutions",
+      "description": "Payment processing and financial management tools"
+    },
+    "dataPlatforms": {
+      "title": "Data Platforms",
+      "description": "Business intelligence and analytics dashboards"
+    },
+    "multiTenantSaas": {
+      "title": "Multi-tenant SaaS",
+      "description": "Scalable business management platforms"
+    }
+  },
+  "contact": {
+    "title": "Let's connect",
+    "description": "Interested in our work or want to collaborate? Schedule a meeting with us."
+  },
+  "footer": {
+    "copyright": "© 2024 Arzef. Building the web, one project at a time."
+  }
+} 
