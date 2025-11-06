@@ -3,6 +3,7 @@ import {useTranslations} from 'next-intl';
 
 export default function Footer() {
   const t = useTranslations();
+  const currentYear = new Date().getFullYear();
   
   return (
 
@@ -19,7 +20,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-sm text-muted-foreground">
-              {t('footer.copyright')}
+              {t('footer.copyright', { year: currentYear })}
             </p>
           </div>
         </div>

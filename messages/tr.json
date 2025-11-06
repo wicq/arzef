@@ -41,6 +41,6 @@
     "description": "Bizimle bir toplantı ayarlayın."
   },
   "footer": {
-    "copyright": "© 2024 Arzef. Web uygulamaları geliştiriyoruz."
+    "copyright": "© {year} Arzef. Web uygulamaları geliştiriyoruz."
   }
 } 

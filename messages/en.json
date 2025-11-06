@@ -41,6 +41,6 @@
     "description": "Interested in our work or want to collaborate? Schedule a meeting with us."
   },
   "footer": {
-    "copyright": "© 2024 Arzef. Building the web, one project at a time."
+    "copyright": "© {year} Arzef. Building the web, one project at a time."
   }
 } 
